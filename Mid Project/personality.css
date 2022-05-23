@@ -1,0 +1,327 @@
+.perhead {
+  font-family: cursive;
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+}
+.perhead:hover {
+  text-decoration: none;
+}
+/* .marginm {
+  margin: 100px 500px;
+} */
+
+.perhead2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 45px;
+  text-transform: uppercase;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo3L6La1PJTDj7oGEplBpPsvUGFob0t6mNHA&usqp=CAU);
+  color: transparent;
+  /* color: transparent; */
+  -webkit-background-clip: text;
+}
+.perhead2:hover {
+  text-decoration: underline;
+}
+
+.mtj {
+  font-family: cursive;
+  color: black;
+  text-decoration: underline;
+}
+.mtj:hover {
+  text-decoration: none;
+}
+.alink {
+  color: white;
+}
+.alink:hover {
+  color: black;
+  border-bottom: 2px solid black;
+  border-top: 2px;
+}
+.slider {
+  margin-left: 280px;
+}
+body {
+  margin: auto;
+  padding: 0;
+}
+
+.navbar {
+  position: absolute;
+  top: 0%;
+  left: 12%;
+  background-color: rgba(12, 10, 10, 0.705);
+  clip-path: polygon(0 0, 100% 0, 96% 100%, 3% 100%);
+  padding: 7px 50px;
+  width: 75vw;
+  /* height: 60px; */
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+  /* position: fixed; */
+}
+.nav-items {
+  padding: 4px 25px;
+  list-style: none;
+  color: white;
+  transition: ease-in-out 0.5s;
+  margin: 5px 0px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-family: bold;
+}
+.navbar li:hover {
+  background-color: rgb(233, 227, 229);
+  color: rgb(2, 2, 19);
+}
+
+#p1 {
+  /* width: 87vw; */
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.style1 {
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
+.style2 {
+  margin-left: 0px;
+  width: 94vw;
+}
+.color {
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+  border-radius: 28px;
+}
+
+.container1 {
+  width: 90 vw;
+  padding: 20px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box1 {
+  width: 200x;
+  margin: 0 10px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+  height: 200px;
+  transition: 1s;
+}
+.img1 {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.box1:hover {
+  transform: scale(1.3);
+  z-index: 2;
+}
+
+#hrgrad1 {
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+  height: 2px;
+}
+#iframee {
+  margin-left: 11%;
+
+  width: 75vw;
+  height: 60vh;
+}
+
+/* for city */
+
+.banner::after,
+.banner::before {
+  content: "";
+  position: absolute;
+  /* top: 0; */
+  left: 50%;
+  transform: skew(15deg) translateX(-50%);
+  width: 75%;
+  height: 100%;
+  background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+  background-color: #333;
+  opacity: 0.7;
+}
+
+.banner::before {
+  transform: skew(-15deg) translateX(-50%);
+}
+
+.banner {
+  overflow: hidden;
+}
+.banner > * {
+  z-index: 100;
+}
+.banner {
+  position: relative;
+  min-height: 60vh;
+  background-image: url(https://images.unsplash.com/photo-1509473332032-f1ce823d92c4?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=3e2410208e8f8a78e4aa3550fddfbb44);
+  background-size: cover;
+  display: flex;
+}
+#cityp {
+  width: 40%;
+  margin-left: 30%;
+  margin: auto;
+  text-align: center;
+  /* z-index: -1; */
+  /* margin-bottom: 50%; */
+  color: white;
+
+  width: 43%;
+  height: 500px;
+}
+
+/* tuorists */
+
+.divforimg {
+  float: left;
+  text-align: center;
+}
+.imghgs {
+  text-align: center;
+  width: 90%;
+  height: 70vh;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+
+.banner1::after,
+.banner1::before {
+  content: "";
+  position: absolute;
+  /* top: 0; */
+  left: 50%;
+  transform: skew(15deg) translateX(-50%);
+  width: 75%;
+  height: 100%;
+  background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+  background-color: #333;
+  opacity: 0.7;
+}
+
+.banner1::before {
+  transform: skew(-15deg) translateX(-50%);
+}
+
+.banner1 {
+  overflow: hidden;
+}
+.banner1 > * {
+  z-index: 100;
+}
+.banner1 {
+  position: relative;
+  min-height: 60vh;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/227/533/large_2x/attabad-lake-in-karakoram-mountain-range-hunza-valley-pakistan-free-photo.jpg);
+  background-size: cover;
+  display: flex;
+}
+
+/* footer */
+
+.footer-basic {
+  padding: 40px 0;
+  background-color: rgb(46, 45, 45);
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  color: white;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+.footer-basic li:hover {
+  background-color: rgb(233, 227, 229);
+  border-radius: 3px;
+  color: #000000;
+}
+#newhr {
+  background-color: rgb(233, 227, 229);
+  /* width: 10px; */
+}
+
+/* icons */
+
+.fa {
+  /* padding: 24px; */
+  padding: 25px 37px;
+  font-size: 18px;
+  width: 30px;
+  /* height: 10px; */
+  text-align: center;
+  text-decoration: none;
+  /* border-radius: 50%; */
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+.fa-facebook {
+  padding: 18px 25px;
+  background: #3b5998;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.fa-google {
+  padding: 18px 21px;
+  background: #dd4b39;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  padding: 18px 23px;
+  background: #007bb5;
+  color: white;
+  border-radius: 50%;
+}
+.fa-yahoo {
+  margin-left: 4px;
+  padding: 18px 23px;
+  background: #430297;
+  color: white;
+  border-radius: 50%;
+}
